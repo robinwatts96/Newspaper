@@ -9,3 +9,7 @@ body {
 header {
     border: 1px black solid;
 }
+
+.exclusive-container {
+    border: 1px black solid;
+}
