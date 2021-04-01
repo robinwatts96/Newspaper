@@ -2,8 +2,12 @@
     font-family: 'Yatra One', cursive;
 }
 
+html,
 body {
-    margin: 0 auto;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
 header {
@@ -21,4 +25,8 @@ header {
 .helms-deep h3 {
     background-color: grey;
     text-align: right;
+}
+
+.scandal-container {
+    border: 1px solid black;
 }
