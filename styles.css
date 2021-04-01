@@ -13,3 +13,12 @@ header {
 .exclusive-container {
     border: 1px black solid;
 }
+
+.exclusive {
+    background-color: grey;
+}
+
+.helms-deep h3 {
+    background-color: grey;
+    text-align: right;
+}
