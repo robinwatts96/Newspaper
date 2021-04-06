@@ -27,6 +27,13 @@ header {
     text-align: right;
 }
 
+/* Scandal */
 .scandal-container {
     border: 1px solid black;
+}
+.gandalf-quote hr {
+    height: 1em;
+    background-color: black;
+    border-bottom: 3px blue solid;
+    
 }
