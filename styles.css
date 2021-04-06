@@ -10,9 +10,15 @@ body {
     overflow-x: hidden;
 }
 
+
+/* Header */
+
 header {
     border: 1px black solid;
 }
+
+
+/* Exclusive */
 
 .exclusive-container {
     border: 1px black solid;
@@ -27,13 +33,19 @@ header {
     text-align: right;
 }
 
+
 /* Scandal */
+
 .scandal-container {
     border: 1px solid black;
 }
-.gandalf-quote hr {
-    height: 1em;
+
+.hr-scandal-thin {
+    height: 0.1em;
     background-color: black;
-    border-bottom: 3px blue solid;
-    
+}
+
+.hr-scandal-thick {
+    height: 0.5em;
+    background-color: black;
 }
