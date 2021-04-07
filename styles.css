@@ -68,3 +68,13 @@ header {
     height: 0.25em;
     background-color: black;
 }
+
+
+/* Photo Of The Day */
+.potd {
+    border: solid 1px black;
+}
+
+.potd-title {
+    background-color: grey;
+}
