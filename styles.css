@@ -53,3 +53,18 @@ header {
 #gandalf-name {
     background-color: grey;
 }
+
+
+/* Sport Report */
+.sport-report {
+    border: 1px solid black;
+}
+
+.sport-report-title {
+    border: 1px solid black;
+}
+
+.sport-report hr {
+    height: 0.25em;
+    background-color: black;
+}
