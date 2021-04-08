@@ -96,11 +96,14 @@ header {
 }
 
 #weather {
+  padding: 0 0.5em;
   text-align: center;
+  font-size: 2rem;
+  letter-spacing: 0.75rem;
   background-color: white;
   position: relative;
   display: inline-block;
-  /* transform: translateX(-50%);  */
-  top: -2em;
+  transform: translateX(-50%); 
+  top: -2.30em;
   left: 50%;
 }
