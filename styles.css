@@ -107,3 +107,12 @@ header {
   top: -2.30em;
   left: 50%;
 }
+
+.weather-cities {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 0.5em;
+    list-style-type: none;
+    text-align: center;
+}
