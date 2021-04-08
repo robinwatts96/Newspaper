@@ -78,3 +78,29 @@ header {
 .potd-title {
     background-color: grey;
 }
+
+
+/* Weather */
+.weather-container {
+    width: 100%;
+}
+
+.hr-weather-thin {
+    height: 0.1em;
+    background-color: black;
+}
+
+.hr-weather-thick {
+    height: 0.5em;
+    background-color: black;
+}
+
+#weather {
+  text-align: center;
+  background-color: white;
+  position: relative;
+  display: inline-block;
+  /* transform: translateX(-50%);  */
+  top: -2em;
+  left: 50%;
+}
