@@ -135,3 +135,15 @@ header {
     /* padding: 0.375em 0 0.1875em 0; */
     margin: 0;
 }
+
+.weather-hot {
+    text-shadow: 6px 0 3px red;
+}
+
+.weather-middle {
+    text-shadow: 6px 0 3px grey;
+}
+
+.weather-cold {
+    text-shadow: 6px 0 3px blue;
+}
