@@ -118,10 +118,20 @@ header {
 }
 
 .weather-cities p {
-    font-size: 4rem;
+    font-size: 9rem;
     font-weight: 1000;
 }
 
+.weather-cities p span {
+    font-size: 3rem;
+    font-weight: 1000;
+    position: absolute;   
+}
+
 .weather-cities h3 {
-    
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    /* padding: 0.375em 0 0.1875em 0; */
+    margin: 0;
 }
