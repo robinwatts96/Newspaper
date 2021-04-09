@@ -116,3 +116,12 @@ header {
     list-style-type: none;
     text-align: center;
 }
+
+.weather-cities p {
+    font-size: 4rem;
+    font-weight: 1000;
+}
+
+.weather-cities h3 {
+    
+}
