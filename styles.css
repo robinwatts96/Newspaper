@@ -162,11 +162,12 @@ footer {
 .footer-links span {
     color: white;
     background-color: black;
-    border: 1px black solid;
-    width: 36px;
-    height: 36px;
-    padding: 8px;
+    font-size: 1.25em;
+    border: 2px black solid;
+    width: 25px;
+    height: 25px;
+    padding: 10px 30px;
     border-radius: 50%;
-
+    text-align: center;
  
 }
