@@ -157,6 +157,7 @@ footer {
 .footer-links {
     list-style-type: none;
     text-align: center;
+    
 }
 
 .footer-links span {
@@ -169,5 +170,20 @@ footer {
     padding: 10px 30px;
     border-radius: 50%;
     text-align: center;
+    margin-left: 1em;
  
+}
+
+.footer-links li {
+    margin-bottom: 2em;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-links li a:visited {
+    text-decoration: none;
+    decoration: none;
 }
