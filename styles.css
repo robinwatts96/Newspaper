@@ -153,3 +153,8 @@ header {
 footer {
     border: 1px solid black;
 }
+
+.footer-links {
+    list-style-type: none;
+    text-align: center;
+}
