@@ -8,13 +8,16 @@
     </head>
 
     <body>
-      <header>
+      <header id="top">
           <h1>The Daily Hobbit</h1>
           <p>The hottest gossip for Hobbits, all in one place.</p>
       </header>
 
       <main>
-        <article class="exclusive-container">
+
+       <!-- Exclusive -->
+
+        <article id="exclusive" class="exclusive-container">
           <div class="exclusive">
              <h2>Exclusive</h2>
           </div>
@@ -25,7 +28,9 @@
           </div>
         </article>
 
-        <article class="scandal-container">
+        <!-- Scandal -->
+        
+        <article id="scandal" class="scandal-container">
           <h2>Scandalous Gandalf</h2>
           <h3>Gandalf The Grey Caught With His Pipeweed Again. Still Under His Probabtion, What Will The Future Hold For The rebellious Wizard?</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -46,7 +51,7 @@
         </article>
 
         <!-- Sport Report (Change the first "A" to a football in the shape of an A?) Position this along the right hand side in wider viewports-->
-        <aside class="sport-report">
+        <aside id="sport" class="sport-report">
           <div class="sport-report-title">
             <h2>Sport Report</h2>
             <h3>With Samwise Gamgee</h3>
@@ -57,7 +62,7 @@
 
         </aside>
         <!-- Photo of the day (figure/fig caption with quote) -->
-        <figure class="potd">
+        <figure id="photo"class="potd">
           <img src="ring.jpg" alt="Frodo Baggins Ring Photo - Our Photo Of The Day.">
           <figcaption>
             <div class="potd-title">
@@ -69,7 +74,7 @@
         </figure>
         
         <!-- Weather -->
-        <section class="weather-container">
+        <section  id="weather" class="weather-container">
           <hr class="hr-weather-thick">
           <hr class="hr-weather-thin">
           <h3 id="weather">Weather</h3>
@@ -127,32 +132,32 @@
       <footer>
           <ul>
             <li> 
-              <a>Back To Top </a>
+              <a href="#top">Back To Top </a>
               <span>1</span>
             </li>
             
             <li> 
-              <a>Exclusive </a>
+              <a href="#exclusive">Exclusive </a>
               <span>3</span>
             </li>
 
             <li> 
-              <a>Scandalous Gandalf </a>
+              <a href="#scandal">Scandalous Gandalf </a>
               <span>4</span>
             </li>
 
             <li> 
-              <a>Sport Report </a>
+              <a href="#sport">Sport Report </a>
               <span>5</span>
             </li>
 
             <li> 
-              <a>Photo Of The Day </a>
+              <a href="#photo">Photo Of The Day </a>
               <span>6</span>
             </li>
 
             <li> 
-              <a>Weather </a>
+              <a href="#weather">Weather </a>
               <span>7</span>
             </li>
           </ul>
