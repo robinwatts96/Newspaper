@@ -147,3 +147,10 @@ header {
 .weather-cold {
     text-shadow: 6px 0 3px blue;
 }
+
+/* Footer */
+
+footer {
+    border: 1px solid black;
+    height: 30px;
+}
