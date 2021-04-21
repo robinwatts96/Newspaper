@@ -13,12 +13,18 @@ body {
 
 /* Header */
 
-header {
+#top {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100vw;
     border: 1px black solid;
 }
 
-#top {
-    display: flex;
+#top h1 {
+    text-transform: uppercase;
+    font-size: 4em;
 }
 
 
