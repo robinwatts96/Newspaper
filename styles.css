@@ -17,6 +17,10 @@ header {
     border: 1px black solid;
 }
 
+#top {
+    display: flex;
+}
+
 
 /* Exclusive */
 
