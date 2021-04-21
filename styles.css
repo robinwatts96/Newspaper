@@ -43,6 +43,10 @@ body {
     background-color: black;
 }
 
+.hr-top-thin-reduction {
+    margin-bottom: -0.04em;
+}
+
 #the {
   padding: 0 0.5em;
   text-align: center;
