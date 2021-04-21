@@ -19,7 +19,7 @@ body {
     /* justify-content: center; */
     align-items: center;
     width: 100vw;
-    border: 1px black solid;
+    /* border: 1px black solid; */
 }
 
 .the-container {
@@ -28,6 +28,7 @@ body {
     flex-direction: column;
     align-items: center; */
     padding-top: 5vh;
+    
 }
 
 .hr-top-thin {
@@ -58,18 +59,20 @@ body {
 
 #top h1 {
     text-transform: uppercase;
-    font-size: 4em;
+    font-size: 6em;
+    margin-top: -1em;
 }
 
 #top p {
     font-size: 2em;
+    margin-top: -2em;
 }
 
 
 /* Exclusive */
 
 .exclusive-container {
-    border: 1px black solid;
+    /* border: 1px black solid; */
 }
 
 .exclusive {
