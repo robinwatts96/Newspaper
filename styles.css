@@ -17,6 +17,8 @@ body {
 }
 
 
+
+
 /* Header */
 
 #top {
@@ -161,10 +163,13 @@ body {
 }
 
 .scandal-container p {
-    text-indent: 6em;
+    /* text-indent: 6em; */
     font-size: 0.8em;
 }
 
+.scandal-container p::first-letter {
+    initial-letter: 2;
+}
 
 /* Sport Report */
 .sport-report {
