@@ -100,6 +100,7 @@ body {
 }
 
 .helms-deep h2 {
+    font-size: 1.25em;
     text-transform: uppercase;
     font-weight: 1000;
 }
@@ -109,6 +110,7 @@ body {
     color: white;
     padding-right: 1em;
     text-align: right;
+    margin-bottom: 0;
 }
 
 .sloped-hr { 
