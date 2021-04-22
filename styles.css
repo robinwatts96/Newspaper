@@ -24,7 +24,7 @@ body {
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    width: 100vw;
+    width: 100%;
     /* border: 1px black solid; */
 }
 
@@ -81,10 +81,6 @@ body {
 
 /* Exclusive */
 
-.exclusive-container {
-    /* border: 1px black solid; */
-}
-
 .exclusive {
     background-color: black;
     margin-top: 4em;
@@ -127,6 +123,7 @@ body {
 
 .scandal-container {
     border: 1px solid black;
+    margin-top: 4em;
 }
 
 .hr-scandal-thin {
