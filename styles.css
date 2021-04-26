@@ -134,6 +134,7 @@ body {
 .scandal-container {
     border: 6px solid black;
     margin-top: 4em;
+    
 }
 
 #scandal h2 {
@@ -144,6 +145,17 @@ body {
 
 #scandal h3 {
     font-weight: 1000;
+}
+
+.gandalf-fig {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#gandalf-img {
+    width: 90%;   
+    margin: 2em auto;
+    display: block;
 }
 
 .slant-hr {
