@@ -17,9 +17,8 @@ body {
 }
 
 .first-letter {
-    font-size: 80px; 
-    line-height: 180px;
-    /* display: inline; */
+    font-size: 2em; 
+    font-weight: bold;
 }
 
 
@@ -124,9 +123,10 @@ body {
   }
 
   .exclusive-container p {
-    /* text-indent: 6em; */
+    
     font-size: 0.8em;
-    initial-letter: 2;
+    text-indent: 5em;
+    
 }
 
 /* Scandal */
@@ -168,13 +168,10 @@ body {
 }
 
 .scandal-container p {
-    /* text-indent: 6em; */
     font-size: 0.8em;
+    text-indent: 5em;
 }
 
-.scandal-container p::first-letter {
-    initial-letter: 2;
-}
 
 /* Sport Report */
 .sport-report {
