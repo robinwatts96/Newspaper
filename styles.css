@@ -16,7 +16,11 @@ body {
     margin: 0 auto;
 }
 
-
+.first-letter {
+    font-size: 80px; 
+    line-height: 180px;
+    /* display: inline; */
+}
 
 
 /* Header */
@@ -120,8 +124,9 @@ body {
   }
 
   .exclusive-container p {
-    text-indent: 6em;
+    /* text-indent: 6em; */
     font-size: 0.8em;
+    initial-letter: 2;
 }
 
 /* Scandal */
