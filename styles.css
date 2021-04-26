@@ -187,6 +187,10 @@ body {
     background-color: black;
 }
 
+.sport-report p {
+    text-indent: 5em;
+}
+
 
 /* Photo Of The Day */
 .potd {
