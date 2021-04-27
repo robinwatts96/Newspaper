@@ -1,5 +1,6 @@
-* {
+*, *::before, *::after  {
     font-family: 'Yatra One', cursive;
+    box-sizing: border-box; 
 }
 
 html,
@@ -21,12 +22,11 @@ body {
     font-weight: bold;
 }
 
-.exclusive-container *,
-.scandal-container *{
-    padding: 0 1em;
+
+
+.padd {
+    padding: 0 2em;
 }
-
-
 /* Header */
 
 #top {
@@ -111,12 +111,12 @@ body {
     font-weight: 1000;
 }
 
-.helms-deep h3 {
+#full-story {
     background-color: black;
     color: white;
     padding-right: 1em;
     text-align: right;
-    margin-bottom: 0;
+    margin: 0 auto;
 }
 
 .sloped-hr { 
@@ -131,6 +131,7 @@ body {
     
     font-size: 0.8em;
     text-indent: 5em;
+    
     
 }
 
@@ -180,8 +181,12 @@ body {
     background-color: black;
 }
 
-#gandalf-name {
-    background-color: grey;
+#gandalf-name span{
+    background-color: black;
+    color: white;
+    padding: 0 1em;
+    font-size: 0.75em;
+    text-transform: uppercase;
 }
 
 .scandal-container p {
@@ -189,8 +194,15 @@ body {
     text-indent: 5em;
 }
 
+.gandalf-quote h3 {
+  text-transform: uppercase;
+  font-size: 2.2em;
+}
+
 .gandalf-quote q {
-    font-size: 0.8em;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
 }
 
 
