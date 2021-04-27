@@ -22,7 +22,10 @@ body {
     font-weight: bold;
 }
 
-
+hr {
+    width: 95%;
+    margin: 0 auto;
+}
 
 .padd {
     padding: 0 2em;
@@ -168,7 +171,7 @@ body {
     opacity: 0.7;
     border-top: 0.5em dotted black;
     border-bottom: 0.5em dotted #DCDCDC;
-    margin: 2em 0;
+    
 }
 
 .hr-scandal-thin {
