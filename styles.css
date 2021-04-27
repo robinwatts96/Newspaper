@@ -21,6 +21,11 @@ body {
     font-weight: bold;
 }
 
+.exclusive-container *,
+.scandal-container *{
+    padding: 0 1em;
+}
+
 
 /* Header */
 
@@ -182,6 +187,10 @@ body {
 .scandal-container p {
     font-size: 0.8em;
     text-indent: 5em;
+}
+
+.gandalf-quote q {
+    font-size: 0.8em;
 }
 
 
