@@ -256,18 +256,32 @@ hr {
 .potd {
     border: solid 6px black;
     margin: 0 auto;
-    margin-top: 4em;
-    
+    margin-top: 4em;  
+}
+
+.potd h2,
+.potd h3 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.potd h2 {
+    padding: 1em 0;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+.potd h3 {
+    padding: 1em 0;
+    font-size: 1em;
 }
 
 .potd img {
     width: 100%;   
-    margin: 2em auto;
+    margin: 0 auto 2em auto;
     display: block;
-}
-
-.potd-title {
-    background-color: grey;
 }
 
 
