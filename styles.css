@@ -208,10 +208,12 @@ hr {
   margin: 0.1em 0;
 }
 
-#gandalf-quote-q {
+#gandalf-quote-q,
+.potd p {
     font-size: 1em;
     font-weight: bold;
     font-style: italic;
+    text-indent: 1.75em;
 }
 
 
@@ -268,20 +270,24 @@ hr {
 }
 
 .potd h2 {
-    padding: 1em 0;
+    padding: 0.75em 0;
     font-size: 4em;
     text-transform: uppercase;
 }
 
 .potd h3 {
     padding: 1em 0;
-    font-size: 1em;
+    font-size: 0.90em;
 }
 
 .potd img {
     width: 100%;   
-    margin: 0 auto 2em auto;
+    margin: 0 auto;
     display: block;
+}
+
+.potd p {
+    margin: 2em auto;
 }
 
 
@@ -309,7 +315,7 @@ hr {
   position: relative;
   display: inline-block;
   transform: translateX(-50%); 
-  top: -2.30em;
+  /* top: -2.30em; */
   left: 50%;
 }
 
