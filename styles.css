@@ -184,25 +184,31 @@ hr {
     background-color: black;
 }
 
+#hr-margin {
+    margin-bottom: 2em;
+}
+
 #gandalf-name span{
     background-color: black;
     color: white;
     padding: 0 1em;
     font-size: 0.75em;
     text-transform: uppercase;
+    margin-left: 2em;
 }
 
 .scandal-container p {
     font-size: 0.8em;
-    text-indent: 5em;
+    text-indent: 1.75em;
 }
 
 .gandalf-quote h3 {
   text-transform: uppercase;
   font-size: 2.2em;
+  margin: 0.1em 0;
 }
 
-.gandalf-quote q {
+#gandalf-quote-q {
     font-size: 1em;
     font-weight: bold;
     font-style: italic;
