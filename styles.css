@@ -258,7 +258,7 @@ hr {
 .potd {
     border: solid 6px black;
     margin: 0 auto;
-    margin: 4em auto;  
+    margin: 4em auto 8em auto;  
 }
 
 .potd h2,
@@ -295,29 +295,35 @@ hr {
 .weather-container {
     width: 100%;
     margin: 0 auto;
+    padding: 0;
 }
 
 .hr-weather-thin {
     height: 0.1em;
     background-color: black;
+    margin: 0;
+    width: 100%;
 }
 
 .hr-weather-thick {
     height: 0.5em;
     background-color: black;
+    margin: 0;
+    width: 100%;
 }
 
 #weather {
   padding: 0 0.5em;
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
   letter-spacing: 0.75rem;
   background-color: white;
   position: relative;
   display: inline-block;
-  transform: translateX(-50%); 
-  top: 0.30em;
-  left: 50%;
+  /* transform: translateX(-50%);  */
+  top: -1.90em;
+  /* left: 50%; */
+  text-align: center;
 }
 
 .weather-cities {
