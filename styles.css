@@ -377,13 +377,14 @@ hr {
 /* Footer */
 
 footer {
-    border: 1px solid black;
+    border: 6px solid black;
+    margin: 4em auto;
 }
 
 .footer-links {
     list-style-type: none;
     text-align: center;
-    
+    margin: 4em auto;
 }
 
 .footer-links span {
