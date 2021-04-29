@@ -332,6 +332,9 @@ hr {
     grid-row-gap: 0.5em;
     list-style-type: none;
     text-align: center;
+    padding: 0;
+    margin-top: -10em;
+    
 }
 
 .weather-cities p {
@@ -351,6 +354,12 @@ hr {
     border-bottom: 2px solid black;
     /* padding: 0.375em 0 0.1875em 0; */
     margin: 0;
+}
+
+.weather-hot,
+.weather-middle,
+.weather-cold {
+    margin: 0.5em auto 0 auto;
 }
 
 .weather-hot {
