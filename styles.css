@@ -1,3 +1,5 @@
+/* Universal */
+
 *, *::before, *::after  {
     font-family: 'Yatra One', cursive;
     box-sizing: border-box; 
@@ -9,7 +11,6 @@ body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    
 }
 
 body {
@@ -17,10 +18,15 @@ body {
     margin: 0 auto;
 }
 
+
+/* Typography */
+
 .first-letter {
     font-size: 2em; 
     font-weight: bold;
 }
+
+/* HR Lines */
 
 .hr-top-thin {
     height: 0.1em;
@@ -44,6 +50,19 @@ hr {
     margin: 0 auto;
 }
 
+.sloped-hr { 
+    height: 30px; 
+    border-style: solid; 
+    border-color: black; 
+    border-width: 0.5em 0 0  0; 
+    border-radius: 10em; 
+  }
+
+  .slant-hr {
+    opacity: 0.7;
+    border-top: 0.5em dotted black;
+    border-bottom: 0.5em dotted #DCDCDC;  
+}
 .padd {
     padding: 0 2em;
 }
@@ -52,15 +71,10 @@ hr {
 #top {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     width: 100%;
-    /* border: 1px black solid; */
 }
 
-/* .the-container .hr-top-thick {
-    margin-top: -1em;
-} */
 
 .the-container {
     /* width: 100vw;
@@ -129,13 +143,6 @@ hr {
     margin: 0 auto;
 }
 
-.sloped-hr { 
-    height: 30px; 
-    border-style: solid; 
-    border-color: black; 
-    border-width: 0.5em 0 0  0; 
-    border-radius: 10em; 
-  }
 
   .exclusive-container p {
     
@@ -174,12 +181,7 @@ hr {
     display: block;
 }
 
-.slant-hr {
-    opacity: 0.7;
-    border-top: 0.5em dotted black;
-    border-bottom: 0.5em dotted #DCDCDC;
-    
-}
+
 
 .hr-scandal-thin {
     height: 0.1em;
