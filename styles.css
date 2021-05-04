@@ -26,6 +26,7 @@ body {
     font-weight: bold;
 }
 
+
 /* HR Lines */
 
 .hr-top-thin {
@@ -96,9 +97,15 @@ hr {
     margin-top: 3em;
 }
 
+
+/* Padding */
+
 .padd {
     padding: 0 2em;
 }
+
+
+
 /* Header */
 
 #top {
@@ -108,7 +115,6 @@ hr {
     width: 100%;
 }
 
-
 .the-container {
     /* width: 100vw;
     display: flex;
@@ -117,8 +123,6 @@ hr {
     padding-top: 5vh;
     
 }
-
-
 
 #the {
   padding: 0 0.5em;
