@@ -406,10 +406,13 @@ footer {
     border-radius: 50%;
     text-align: center;
     margin-left: 1em;
+    transition: all .7s; 
 }
 
 .footer-links span:hover {
-    background-color: green;
+    background-color: white;
+    color: black;
+    border: 1px grey solid;
 }
 
 .footer-links li {
