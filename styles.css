@@ -105,7 +105,6 @@ hr {
 }
 
 
-
 /* Header */
 
 #top {
@@ -160,6 +159,7 @@ hr {
 .exclusive h2 {
     color: white;
     text-transform: uppercase;
+    margin-left: 1em;
 }
 
 .helms-deep {
@@ -430,5 +430,8 @@ footer {
     text-decoration: none;
     decoration: none;
 }
+
+
+
 
 /* Media Queries */
