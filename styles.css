@@ -277,6 +277,7 @@ hr {
 
 
 /* Photo Of The Day */
+
 .potd {
     border: solid 6px black;
     margin: 0 auto;
@@ -314,6 +315,7 @@ hr {
 
 
 /* Weather */
+
 .weather-container {
     width: 100%;
     margin: 0 auto;
