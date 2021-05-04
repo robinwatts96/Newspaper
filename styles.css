@@ -406,7 +406,10 @@ footer {
     border-radius: 50%;
     text-align: center;
     margin-left: 1em;
- 
+}
+
+.footer-links span:hover {
+    background-color: green;
 }
 
 .footer-links li {
