@@ -185,12 +185,12 @@ hr {
     text-indent: 5em;    
 }
 
+
 /* Scandal */
 
 .scandal-container {
     border: 6px solid black;
-    margin-top: 4em;
-    
+    margin-top: 4em; 
 }
 
 #scandal h2 {
@@ -213,10 +213,6 @@ hr {
     margin: 2em auto;
     display: block;
 }
-
-
-
-
 
 #gandalf-name span{
     background-color: black;
@@ -248,6 +244,7 @@ hr {
 
 
 /* Sport Report */
+
 .sport-report {
     border: 6px solid black;
     margin-top: 4em;
