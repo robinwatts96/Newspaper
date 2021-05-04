@@ -63,6 +63,39 @@ hr {
     border-top: 0.5em dotted black;
     border-bottom: 0.5em dotted #DCDCDC;  
 }
+
+.hr-scandal-thin {
+    height: 0.1em;
+    background-color: black;
+}
+
+.hr-scandal-thick {
+    height: 0.5em;
+    background-color: black;
+}
+
+#hr-margin {
+    margin-bottom: 2em;
+}
+
+.hr-weather-thin {
+    height: 0.1em;
+    background-color: black;
+    margin: 0;
+    width: 100%;
+}
+
+.hr-weather-thick {
+    height: 0.5em;
+    background-color: black;
+    margin-bottom: 0.5em;
+    width: 100%;
+}
+
+.sport-report hr {
+    margin-top: 3em;
+}
+
 .padd {
     padding: 0 2em;
 }
@@ -183,19 +216,7 @@ hr {
 
 
 
-.hr-scandal-thin {
-    height: 0.1em;
-    background-color: black;
-}
 
-.hr-scandal-thick {
-    height: 0.5em;
-    background-color: black;
-}
-
-#hr-margin {
-    margin-bottom: 2em;
-}
 
 #gandalf-name span{
     background-color: black;
@@ -258,9 +279,7 @@ hr {
 
 }
 
-.sport-report hr {
-    margin-top: 3em;
-}
+
 
 
 /* Photo Of The Day */
@@ -307,19 +326,7 @@ hr {
     padding: 0;
 }
 
-.hr-weather-thin {
-    height: 0.1em;
-    background-color: black;
-    margin: 0;
-    width: 100%;
-}
 
-.hr-weather-thick {
-    height: 0.5em;
-    background-color: black;
-    margin-bottom: 0.5em;
-    width: 100%;
-}
 
 #weather {
   padding: 0 0.5em;
