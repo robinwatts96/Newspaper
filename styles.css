@@ -33,7 +33,7 @@ body {
     height: 0.1em;
     width: 100vw;
     background-color: black;
-    margin-top: 0.5em;
+    margin-top: 0.25em;
 }
 
 .hr-top-thick {
@@ -43,7 +43,7 @@ body {
 }
 
 .hr-top-thin-reduction {
-    margin-bottom: 0.5em;
+    margin-bottom: 0.25em;
 }
 
 hr {
@@ -121,25 +121,25 @@ hr {
 #the {
   padding: 0 0.5em;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1rem;
   letter-spacing: 0.75rem;
   background-color: white;
   position: relative;
   display: inline-block;
   transform: translateX(-50%); 
-  top: -1.95em;
+  top: -2.1em;
   left: 50%;
   text-transform: uppercase;
 }
 
 #top h1 {
     text-transform: uppercase;
-    font-size: 6em;
-    margin-top: -1em;
+    font-size: 2.5em;
+    margin-top: -1.25em;
 }
 
 #top p {
-    font-size: 1.5em;
+    font-size: 0.75em;
     margin-top: -2.5em;
 }
 
