@@ -101,7 +101,7 @@ hr {
 /* Padding */
 
 .padd {
-    padding: 0 2em;
+    padding: 0 1em;
 }
 
 
@@ -148,13 +148,13 @@ hr {
 
 .exclusive {
     background-color: black;
-    margin-top: 4em;
+    margin-top: 2em;
 }
 
 .exclusive h2 {
     color: white;
     text-transform: uppercase;
-    margin-left: 1em;
+    margin-left: 0.75em;
 }
 
 .helms-deep {
