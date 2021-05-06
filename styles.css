@@ -30,7 +30,7 @@ body {
 /* HR Lines */
 
 .hr-top-thin {
-    height: 0.1em;
+    height: 0.25em;
     width: 100vw;
     background-color: black;
     margin-top: 0.25em;
@@ -66,8 +66,9 @@ hr {
 }
 
 .hr-scandal-thin {
-    height: 0.1em;
+    height: 0.25em;
     background-color: black;
+    margin-top: 0.2em;
 }
 
 .hr-scandal-thick {
@@ -76,7 +77,8 @@ hr {
 }
 
 #hr-margin {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
+    margin-top: 0.2em;
 }
 
 .hr-weather-thin {
@@ -207,7 +209,7 @@ hr {
 }
 
 #gandalf-img {
-    width: 95%;   
+    width: 100%;   
     margin: 2em auto;
     display: block;
 }
