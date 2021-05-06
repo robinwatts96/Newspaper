@@ -227,7 +227,7 @@ hr {
 }
 
 #gandalf-name {
-    margin-top: 0.5em;
+    margin: 0 0 0.5em 0;
 }
 
 .scandal-container p {
@@ -237,8 +237,8 @@ hr {
 
 .gandalf-quote h3 {
   text-transform: uppercase;
-  font-size: 2.2em;
-  margin: 0.1em 0;
+  font-size: 1.25em;
+  margin-bottom: 0.5em;
 }
 
 #gandalf-quote-q,
