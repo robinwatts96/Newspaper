@@ -334,7 +334,7 @@ hr {
   padding: 0 0.5em;
   text-align: center;
   font-size: 1em;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.3em;
   background-color: white;
   position: relative;
   display: inline-block;
@@ -351,16 +351,16 @@ hr {
     list-style-type: none;
     text-align: center;
     padding: 0;
-    margin-top: -10em;   
+    margin-top: -4em;   
 }
 
 .weather-cities p {
-    font-size: 9rem;
+    font-size: 3em;
     font-weight: 1000;
 }
 
 .weather-cities p span {
-    font-size: 3rem;
+    font-size: 0.4em;
     font-weight: 1000;
     position: absolute;   
 }
@@ -379,15 +379,15 @@ hr {
 }
 
 .weather-hot {
-    text-shadow: 6px 0 3px red;
+    text-shadow: 3px 0 1.5px red;
 }
 
 .weather-middle {
-    text-shadow: 6px 0 3px grey;
+    text-shadow: 3px 0 1.5px grey;
 }
 
 .weather-cold {
-    text-shadow: 6px 0 3px blue;
+    text-shadow: 3px 0 1.5px blue;
 }
 
 
