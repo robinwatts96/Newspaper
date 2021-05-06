@@ -69,16 +69,19 @@ hr {
     height: 0.25em;
     background-color: black;
     margin-top: 0.2em;
+    width: 100%;
 }
 
 .hr-scandal-thick {
     height: 0.5em;
     background-color: black;
+    width: 100%;
 }
 
 #hr-margin {
     margin-bottom: 1em;
     margin-top: 0.2em;
+    width: 100%;
 }
 
 .hr-weather-thin {
@@ -210,17 +213,21 @@ hr {
 
 #gandalf-img {
     width: 100%;   
-    margin: 2em auto;
+    margin: 1em auto;
     display: block;
 }
 
 #gandalf-name span{
     background-color: black;
     color: white;
-    padding: 0 1em;
+    padding: 0 0.5em;
     font-size: 0.75em;
     text-transform: uppercase;
-    margin-left: 2em;
+        /* margin-left: 2em; */
+}
+
+#gandalf-name {
+    margin-top: 0.5em;
 }
 
 .scandal-container p {
