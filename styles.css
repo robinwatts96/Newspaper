@@ -85,7 +85,7 @@ hr {
 }
 
 .hr-weather-thin {
-    height: 0.1em;
+    height: 0.25em;
     background-color: black;
     margin: 0;
     width: 100%;
@@ -94,7 +94,7 @@ hr {
 .hr-weather-thick {
     height: 0.5em;
     background-color: black;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.25em;
     width: 100%;
 }
 
@@ -289,7 +289,7 @@ hr {
 .potd {
     border: solid 6px black;
     margin: 0 auto;
-    margin: 2em auto 5em auto;  
+    margin: 2em auto 2em auto;  
 }
 
 .potd h2,
@@ -333,13 +333,13 @@ hr {
 #weather {
   padding: 0 0.5em;
   text-align: center;
-  font-size: 3rem;
-  letter-spacing: 0.75rem;
+  font-size: 1em;
+  letter-spacing: 0.5em;
   background-color: white;
   position: relative;
   display: inline-block;
   transform: translateX(-50%); 
-  top: -1.90em;
+  top: -2.25em;
   left: 50%;
 }
 
