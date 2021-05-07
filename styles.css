@@ -448,6 +448,8 @@ footer {
 /* 500px (Font Increase) */
 
 @media only screen and (min-width: 500px)  {
+    
+    /* Header */
     #top h1 {
         font-size: 3.9em;
         margin-top: -0.85em;
@@ -458,4 +460,33 @@ footer {
         margin-top: -2.5em;
     }
 
+    /* Exclusive */
+    .helms-deep h2 {
+        font-size: 1.75em;
+    }
+
+    /* Scandal */
+    #scandal h2,
+    .gandalf-quote h3 {
+        font-size: 2em;
+    }
+
+    #gandalf-name {
+        font-size: 1.5em;
+    }
+
+    /* Sport Report */
+    .sport-report-title {
+    font-size: 1.5em;
+    }
+
+    /* POTD */
+    .potd h2 {
+        font-size: 2em;
+    }
+
+    .potd h3 {
+        font-size: 1.1em;
+    }
 }
+
