@@ -379,15 +379,15 @@ hr {
 }
 
 .weather-hot {
-    text-shadow: 3px 0 1.5px red;
+    text-shadow: 3px 0 1.5px hsla(0,100%,50%, 0.6);
 }
 
 .weather-middle {
-    text-shadow: 3px 0 1.5px grey;
+    text-shadow: 3px 0 1.5px hsla(60,100%,50%, 0.4);
 }
 
 .weather-cold {
-    text-shadow: 3px 0 1.5px blue;
+    text-shadow: 3px 0 1.5px hsla(240,100%,50%, 0.6);
 }
 
 
