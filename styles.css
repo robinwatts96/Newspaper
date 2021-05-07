@@ -446,7 +446,6 @@ footer {
 /* Media Queries */
 
 /* 500px (Font Increase) */
-
 @media only screen and (min-width: 500px)  {
     
     /* Header */
@@ -490,3 +489,14 @@ footer {
     }
 }
 
+
+/* Tablet Breakpoint */
+@media only screen and (min-width: 768px) {
+    /* Header */
+    #the {
+        font-size: 1.5em;
+        top: -2em;
+        padding-right: 0.25em;
+    }
+
+}
