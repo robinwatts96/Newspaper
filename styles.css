@@ -511,7 +511,18 @@ footer {
     }
 
     /* Exclusive */
-    .exclusive-container {
-        
+    .exclusive-wrapper {
+        height: 50vh;
+    }
+
+    .exclusive {
+        float: left;
+        width: 25vw;
+    }
+
+    .helms-deep {
+        float: right;
+        width: 75vw;
+        display: grid;
     }
 }
