@@ -524,5 +524,18 @@ footer {
         float: right;
         width: 75vw;
         display: grid;
+        grid-template-columns: 50px;
+        grid-template-areas: "title bar p  p"
+        ".  bar p  p"
+        ".  bar full  full";
+    }
+
+    .helms-deep h2 {
+        grid-area: title;
+    }
+
+    .helms-deep hr {
+        grid-area: bar;
+        transform: rotate(90deg);
     }
 }
