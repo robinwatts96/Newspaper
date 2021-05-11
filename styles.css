@@ -518,7 +518,16 @@ footer {
     .exclusive {
         float: left;
         width: 20vw;
-        transform: rotate(90deg);
+        height: 50vh;
+        background-color: black;   
+        /* margin-top: 10em; */
+    }
+
+    .exclusive h2 { 
+        transform: rotate(270deg);
+        font-size: 1.75em;
+        letter-spacing: 0.25em; 
+        background-color: black;
     }
 
     .helms-deep {
