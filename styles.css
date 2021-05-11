@@ -513,12 +513,14 @@ footer {
     /* Exclusive */
     .exclusive-wrapper {
         height: 50vh;
+        margin-top: 2em;
     }
 
     .exclusive {
         float: left;
         width: 20vw;
         height: 50vh;
+        margin: 0;
         background-color: black;   
         /* margin-top: 10em; */
     }
@@ -528,11 +530,13 @@ footer {
         font-size: 1.75em;
         letter-spacing: 0.25em; 
         background-color: black;
+        
     }
 
     .helms-deep {
         float: right;
         width: 67.5vw;
+        height: 50vh;
         display: grid;
         grid-template-columns: 30% 60%;
         grid-template-areas: 
