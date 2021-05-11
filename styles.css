@@ -517,17 +517,17 @@ footer {
 
     .exclusive {
         float: left;
-        width: 25vw;
+        width: 20vw;
+        transform: rotate(90deg);
     }
 
     .helms-deep {
         float: right;
-        width: 75vw;
+        width: 67.5vw;
         display: grid;
-        grid-template-columns: 50px;
-        grid-template-areas: "title bar p  p"
-        ".  bar p  p"
-        ".  bar full  full";
+        grid-template-columns: 30% 60%;
+        grid-template-areas: 
+        "title  p  p";
     }
 
     .helms-deep h2 {
@@ -535,7 +535,14 @@ footer {
     }
 
     .helms-deep hr {
-        grid-area: bar;
-        transform: rotate(90deg);
+        display: none;
+    }
+
+    .helms-deep p {
+        grid-area: p;
+    }
+
+    #full-story {
+        display: none;
     }
 }
