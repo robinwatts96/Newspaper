@@ -522,7 +522,6 @@ footer {
         height: 50vh;
         margin: 0;
         background-color: black;   
-        /* margin-top: 10em; */
     }
 
     .exclusive h2 { 
@@ -531,7 +530,7 @@ footer {
         letter-spacing: 0.1em; 
         font-weight: 10000;
         background-color: black;
-        margin-top: 5.1em;
+        margin-top: 5.15em;
         margin-left: 0.2em;
         margin-bottom: 0;
         
