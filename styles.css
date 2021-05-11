@@ -518,7 +518,7 @@ footer {
 
     .exclusive {
         float: left;
-        width: 20vw;
+        width: 15vw;
         height: 50vh;
         margin: 0;
         background-color: black;   
@@ -527,15 +527,19 @@ footer {
 
     .exclusive h2 { 
         transform: rotate(270deg);
-        font-size: 1.75em;
-        letter-spacing: 0.25em; 
+        font-size: 3.75em;
+        letter-spacing: 0.1em; 
+        font-weight: 10000;
         background-color: black;
+        margin-top: 5.1em;
+        margin-left: 0.2em;
+        margin-bottom: 0;
         
     }
 
     .helms-deep {
         float: right;
-        width: 67.5vw;
+        width: 72.5vw;
         height: 50vh;
         display: grid;
         grid-template-columns: 30% 60%;
