@@ -632,4 +632,24 @@ footer {
         padding: 0.5em 5em;
         font-size: 1.25em;
     }
+
+
+    /* Sport Report */
+    .sport-report {
+        float: right;
+        width: 39%;
+        height: 100vh;
+    }
+
+    .sport-report p {
+        font-size: 0.8em;
+    }
+
+
+    /* POTD */
+    .potd {
+        float: left;
+        width: 60%;
+        height: 100vh;
+    }
 }
