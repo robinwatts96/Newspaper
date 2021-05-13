@@ -684,6 +684,27 @@ footer {
 
 
 /* 850px (Font Increase) */
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 900px) {
+  
+    /* Exclusive */
+    .helms-deep h2 {
+        font-size: 1.6em;
+    }
 
+    .helms-deep p {
+        font-size: 1.1em;
+    }
+
+
+    /* Sport Report */
+    .sport-report p {
+        font-size: 0.85em;
+    }
+
+
+    /* Footer */
+    .end {
+        font-size: 0.85em;
+        letter-spacing: 0.15em;
+    }
 }
