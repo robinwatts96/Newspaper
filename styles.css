@@ -661,5 +661,15 @@ footer {
 
 
     /* Footer */
-    
+    .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0.5em 0;
+    }
+
+    .footer-links li {
+        margin:  1em;
+        font-size: 1em
+    }
 }
