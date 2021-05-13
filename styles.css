@@ -638,7 +638,7 @@ footer {
     .sport-report {
         float: right;
         width: 39%;
-        height: 100vh;
+        height: 98vh;
     }
 
     .sport-report p {
@@ -650,6 +650,6 @@ footer {
     .potd {
         float: left;
         width: 60%;
-        height: 100vh;
+        height: 98vh;
     }
 }
