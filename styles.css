@@ -652,4 +652,14 @@ footer {
         width: 60%;
         height: 98vh;
     }
+
+
+    /* Weather */
+    .weather-cities {
+        grid-template-columns: repeat(3, 1fr);    
+    }
+
+
+    /* Footer */
+    
 }
