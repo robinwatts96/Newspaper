@@ -395,7 +395,8 @@ hr {
 
 footer {
     border: 6px solid black;
-    margin: 2em auto;
+    border-bottom: 0;
+    margin: 2em auto 1em auto;
 }
 
 .footer-links {
@@ -438,6 +439,13 @@ footer {
 .footer-links li a:visited {
     text-decoration: none;
     decoration: none;
+}
+
+.end {
+    background-color: black;
+    color: grey;
+    text-align: center;
+    font-size: 0.75em;
 }
 
 
@@ -638,7 +646,7 @@ footer {
     .sport-report {
         float: right;
         width: 39%;
-        height: 98vh;
+        height: 95vh;
     }
 
     .sport-report p {
@@ -650,7 +658,7 @@ footer {
     .potd {
         float: left;
         width: 60%;
-        height: 98vh;
+        height: 95vh;
     }
 
 
@@ -672,4 +680,10 @@ footer {
         margin:  1em;
         font-size: 1em
     }
+}
+
+
+/* 850px (Font Increase) */
+@media only screen and (min-width: 850px) {
+
 }
