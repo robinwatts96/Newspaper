@@ -739,6 +739,24 @@ footer {
 }
 
 
+/* 1200px (Font Increase) */
+@media only screen and (min-width: 1200px) {
+    
+    /* Exclusive */
+    .exclusive h2 {
+        margin-top: 5.15em;
+    }
+    
+   .sport-report {
+        height: 98vh;
+   }
+
+   .potd {
+       height: 98vh;
+   }
+}
+
+
 
 /* Desktops/Laptops */
 @media only screen and (min-width: 1224px) {
