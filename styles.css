@@ -780,7 +780,7 @@ footer {
         justify-content: center;
         align-items: center;
         width: 20vw;
-        height: 20vh;
+        height: 23vh;
         margin: 0;
     }
 
@@ -822,5 +822,14 @@ footer {
 
     .border {
         height: 19vh;
+    }
+
+    .exclusive-wrapper {
+        height: 20vh;
+    }
+
+    #full-story {
+        width: 69vw;
+        height: 3vh;
     }
 }
