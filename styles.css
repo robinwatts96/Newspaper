@@ -761,4 +761,17 @@ footer {
 /* Desktops/Laptops */
 @media only screen and (min-width: 1224px) {
 
+    /* Header */
+    #top h1 {
+       font-size: 8em;
+       letter-spacing: 0.122em;
+       margin-top: -0.75em;
+    }
+
+    #top p {
+       font-size: 2em;
+       margin-bottom: 0.25em;
+    }
+
+
 }
