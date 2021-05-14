@@ -774,4 +774,53 @@ footer {
     }
 
 
+    /* Exclusive */
+    .exclusive {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20vw;
+        height: 20vh;
+        margin: 0;
+    }
+
+    .exclusive h2 {
+        font-size: 2.5em;
+        letter-spacing: 0;
+        margin: 0 auto;
+        text-align: center;
+        transform: rotate(360deg);
+    }
+
+    .helms-deep {
+        float: right;
+        width: 69vw;
+        height: 20vh;
+        display: grid;
+        grid-template-columns: 29% 1% 70%;
+    }
+
+    .helms-deep h2 {
+        font-size: 1.2em;
+        margin: 0;
+    }
+
+    .helms-deep span {
+        font-size: 1.85em;
+    }
+
+    .helms-deep p {
+        column-count: 2;
+        font-size: 0.82em;
+        margin: 0 auto;
+        padding: 0.5em;
+    }
+
+    .helms-deep br {
+        display: none;
+    }
+
+    .border {
+        height: 19vh;
+    }
 }
