@@ -835,6 +835,10 @@ footer {
 
 
     /* Scandal */
+    .scandal-container {
+        height: 100vh;
+    }
+    
     .left {
         float: none;
     }
@@ -849,9 +853,23 @@ footer {
 
     .scandal-container p {
         float: left;
+        width: 50%;
+        font-size: 1.2em;
+    }
+
+    .scandal-container h3 {
+        font-size: 1.5em;
     }
 
     .gandalf-fig {
         float: right;
+        width: 50%;
+    }
+
+    #gandalf-quote-q {
+        padding: 0;
+        width: 40vw;
+        text-align: center;
+        margin: 0 auto;
     }
 }
