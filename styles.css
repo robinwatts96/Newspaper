@@ -801,12 +801,12 @@ footer {
     }
 
     .helms-deep h2 {
-        font-size: 1.2em;
+        font-size: 1.1em;
         margin: 0;
     }
 
     .helms-deep span {
-        font-size: 1.85em;
+        font-size: 2.1em;
     }
 
     .helms-deep p {
@@ -884,4 +884,20 @@ footer {
     .potd p {
         font-size: 0.9em;
     }
+}
+
+
+/* 1450px (Font Increase) */
+@media only screen and (min-width: 1450px) {
+
+    /* Exclusive */
+    /* .helms-deep span {
+        font-size: 2em;
+    }
+
+    .helms-deep h2 {
+        font-size: 1.4em;
+    } */
+
+
 }
