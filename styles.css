@@ -832,4 +832,26 @@ footer {
         width: 69vw;
         height: 3vh;
     }
+
+
+    /* Scandal */
+    .left {
+        float: none;
+    }
+
+    .right {
+        float: none;
+    }
+
+    .scandal-br {
+        display:flex;
+    }
+
+    .scandal-container p {
+        float: left;
+    }
+
+    .gandalf-fig {
+        float: right;
+    }
 }
