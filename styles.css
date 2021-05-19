@@ -908,4 +908,15 @@ footer {
         width: 23%;
     }
 
+
+    /* Scandal */
+    #gandalf-quote-q {
+        font-size: 19px;
+        width: 98%;
+    }
+
+    .scandal-container p {
+        font-size: 21px;
+    }
+
 }
