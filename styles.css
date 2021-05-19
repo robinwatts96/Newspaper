@@ -900,6 +900,12 @@ footer {
         width: 76%;
     }
 
-    #full-story
+    #full-story {
+        width: 76%;
+    }
+
+    .exclusive {
+        width: 23%;
+    }
 
 }
