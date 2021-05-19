@@ -5,17 +5,22 @@
     box-sizing: border-box;    
 }
 
+
 html,
 body {
     width: 100%;
     margin: 0 auto;
     padding: 0px;
     overflow-x: hidden;
+
 }
 
 body {
     width: 90%;
     margin: 0 auto;
+    max-width: 1450px;
+    background-color: white;
+    max-width: 1450px; 
 }
 
 
@@ -891,13 +896,10 @@ footer {
 @media only screen and (min-width: 1450px) {
 
     /* Exclusive */
-    /* .helms-deep span {
-        font-size: 2em;
+    .helms-deep {
+        width: 76%;
     }
 
-    .helms-deep h2 {
-        font-size: 1.4em;
-    } */
-
+    #full-story
 
 }
