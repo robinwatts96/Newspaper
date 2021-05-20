@@ -900,6 +900,10 @@ footer {
         width: 76%;
     }
 
+    .helms-deep p {
+        font-size: 14.4px;
+    }
+
     #full-story {
         width: 76%;
     }
@@ -917,6 +921,12 @@ footer {
 
     .scandal-container p {
         font-size: 21px;
+    }
+
+
+    /* Sport Report */
+    .sport-report p {
+        font-size: 19px;
     }
 
 }
