@@ -20,7 +20,6 @@ body {
     margin: 0 auto;
     max-width: 1450px;
     background-color: white;
-    max-width: 1450px; 
 }
 
 
@@ -927,6 +926,16 @@ footer {
     /* Sport Report */
     .sport-report p {
         font-size: 19px;
+    }
+
+    
+    /* POTD */
+    .potd img {
+        max-width: 860px;   
+    }
+
+    .potd p {
+        font-size: 12px;
     }
 
 }
